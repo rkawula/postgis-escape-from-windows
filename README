@@ -2,10 +2,11 @@ This repo is for using Vagrant, VirtualBox, and chef-solo/Librarian to spin up a
 
 Steps 1-4 are skippable if you have the dependencies installed.
 
-1. Install chefdk & add it to your path.
-2. Install virtualbox.
-3. Install vagrant.
-4. Install Librarian: 'gem install librarian-chef'
+1. Install chefdk & add it to your path. https://download.chef.io/chef-dk/
+2. Install virtualbox. https://www.virtualbox.org/wiki/Downloads
+3. Install vagrant. https://docs.vagrantup.com/v2/installation/
+4. Install Librarian: 'gem install librarian-chef' (requires Ruby; get that here if you don't have it yet --> https://www.ruby-lang.org/en/downloads/ )
+4.5 Make sure all of this crap is on your path
 5. cd into the directory where this is installed.
 6. 'vagrant up'
 7. 'vagrant ssh'
