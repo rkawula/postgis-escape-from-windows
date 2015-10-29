@@ -1,0 +1,15 @@
+This repo is for using Vagrant, VirtualBox, and chef-solo/Librarian to spin up a postgresql/postgis VM while on a Windows host, because running an entire new computer inside of the host computer is easier than setting up any dev environment on Windows. :'(
+
+Steps 1-4 are skippable if you have the dependencies installed.
+
+1. Install chefdk & add it to your path.
+2. Install virtualbox.
+3. Install vagrant.
+4. Install Librarian: 'gem install librarian-chef'
+5. cd into the directory where this is installed.
+6. 'vagrant up'
+7. 'vagrant ssh'
+8. 'sudo su - postgres' (from the postgresql vagrant development wiki -- will try to eliminate this step through Chef later on)
+9. 'psql' to enter postgresql command line!
+
+Congratulations on escaping from Windows.
