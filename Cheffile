@@ -1,0 +1,9 @@
+#!/usr/bin/env ruby
+#^syntax detection
+
+site 'https://supermarket.getchef.com/api/v1'
+
+cookbook 'apt'
+cookbook 'yum'
+cookbook 'postgresql'
+cookbook 'postgis', '~> 0.3.0'
